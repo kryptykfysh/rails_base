@@ -25,6 +25,12 @@ group :development, :test do
   gem 'rb-fsevent' if `uname` =~ /Darwin/
 end
 
+# FactoryGirl and Faker for tests
+group :test do
+  gem 'factory_girl_rails'
+  gem 'faker'
+end
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
