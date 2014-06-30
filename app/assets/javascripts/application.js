@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap.min
 //= require sb-admin
+//= require_tree ../../../vendor/assets/javascripts/.
 //= require_tree .

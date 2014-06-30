@@ -17,6 +17,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use Haml templating
 gem 'haml-rails', group: :development
 
+# Add Font Awesome
+gem 'font-awesome-rails'
+
 # Use RSpec for testing and Guard and Spring for auto-tests.
 group :development, :test do
   gem 'spring-commands-rspec'
