@@ -1,0 +1,10 @@
+%nav.navbar.navbar-default.navbar-fixed-top{role: 'navigation', style: 'margin-bottom: 0'}
+  .navbar-header
+    %button.navbar-toggle{'data-target' => '.sidebar-collapse', 'data-toggle' => 'collapse', type: 'button'}
+      %span.sr-only Toggle navigation
+      %span.icon-bar
+      %span.icon-bar
+      %span.icon-bar
+    = link_to 'SB Admin v2.0', root_path, class: 'navbar-brand'
+  = render partial: 'layouts/header_dropdowns'
+  = render partial: 'layouts/side_navigation'
