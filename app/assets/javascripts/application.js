@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require bootstrap.min
+//= require jquery.metisMenu
+//= require turbolinks
 //= require sb-admin
-//= require_tree ../../../vendor/assets/javascripts/.
 //= require_tree .
