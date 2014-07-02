@@ -12,9 +12,6 @@
  *
  *= require bootstrap.min
  *= require font-awesome
- *= require morris-0.4.3.min
  *= require sb-admin
- *= require timeline
- *= require_tree .
  *= require_self
  */
